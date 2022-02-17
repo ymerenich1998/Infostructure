@@ -1,0 +1,20 @@
+.Layouts{
+  min-height: 100vh;
+  position: relative;
+  &__black{
+    background-color: $background-black;
+  }
+  &__footer{
+    background-color: $background-gray;
+    .logo{
+      position: absolute;
+      left: 0;
+      top: 25%;
+    }
+    .map{
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+  }
+}
